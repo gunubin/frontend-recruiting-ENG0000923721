@@ -23,8 +23,6 @@ export type Receipt = {
   change: number;
 }
 
-type Cash<T, Type> = T extends {type: Type} ? T : never;
-
 export const Receipt = {
   hasCash: (payments: Payment[]) => {
     return payments.some((payment) => payment.type === 'CASH');

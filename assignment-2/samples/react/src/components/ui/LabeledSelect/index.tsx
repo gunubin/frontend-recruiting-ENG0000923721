@@ -12,14 +12,12 @@ export type Props = {
 
 export const LabeledSelect: React.FC<Props> = ({name, title, options, onChange}) => {
   return (
-    <div className="input-group mb-3">
-      <div className={styles.row}>
-        <div className={styles.left}>
-          <Label>{title}</Label>
-        </div>
-        <div className={styles.right}>
-          <Select onChange={onChange} name={name} options={options}/>
-        </div>
+    <div className={styles.row}>
+      <div className={styles.left}>
+        <Label>{title}</Label>
+      </div>
+      <div className={styles.right}>
+        <Select onChange={onChange} name={name} options={options}/>
       </div>
     </div>
   )
