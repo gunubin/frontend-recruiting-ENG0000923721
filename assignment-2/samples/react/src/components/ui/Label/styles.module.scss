@@ -1,0 +1,8 @@
+@import '../../../styles/variables.scss';
+
+.label {
+  font-size: $font-size;
+  line-height: $font-size * 1.2;
+  color: #000;
+  font-weight: bold;
+}

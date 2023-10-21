@@ -1,0 +1,38 @@
+@import '../../../styles/variables.scss';
+
+.container {
+  overflow: hidden;
+  position: relative;
+
+  &::after {
+    content: "▼";
+    padding: 7px 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    text-align: center;
+    width: 10%;
+    height: 100%;
+    pointer-events: none;
+    color: #9c9c9c;
+  }
+}
+
+.select {
+  padding: 8px;
+  border-radius: 5px;
+  border: solid 1px $border-color;
+
+  width: 100%;
+
+  font-size: $font-size;
+  outline: none;
+
+  appearance: none;
+
+  &::placeholder {
+    color: $placeholder-color;
+  }
+
+}

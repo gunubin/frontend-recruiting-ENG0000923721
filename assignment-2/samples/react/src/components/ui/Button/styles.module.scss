@@ -1,0 +1,19 @@
+@import "../../../styles/variables";
+
+.button {
+  border-radius: 10px;
+  padding: 12px 38px;
+  appearance: none;
+
+  border: none;
+
+  background-color: $btn-color;
+  color: #fff;
+
+  font-size: $font-size;
+  line-height: 1.4;
+}
+
+.disabled {
+  opacity: 0.5;
+}

@@ -1,0 +1,17 @@
+
+.row {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.left {
+  padding-right: 8px;
+  flex: 1.5;
+  text-align: right;
+}
+
+.right {
+  flex: 3;
+}

@@ -1,0 +1,25 @@
+@import '../../../styles/variables';
+
+.row {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.left {
+  padding-right: 8px;
+  flex: 1.5;
+  text-align: right;
+}
+
+.right {
+  text-align: left;
+  flex: 3;
+}
+
+
+.error {
+  font-size: $font-size;
+  color: $error-color;
+}

@@ -1,0 +1,19 @@
+@import '../../../styles/variables.scss';
+
+.input {
+  padding: 8px;
+  border-radius: 5px;
+  border: solid 1px $border-color;
+
+  width: 100%;
+
+  font-size: $font-size;
+
+  &::placeholder {
+    color: $placeholder-color;
+  }
+}
+
+.error {
+  border: solid 1px $error-color;
+}
